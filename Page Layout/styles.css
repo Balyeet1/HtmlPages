@@ -1,0 +1,54 @@
+#navbar {    
+  background-color: darkgray;
+  height: 40px;
+  margin: -16px;
+  position: sticky;
+  flex-basis: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightseagreen;
+  height: 200px;
+  margin: -8px;
+  flex-basis: 100%;
+}
+
+#headerMenu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#main-content {
+  display: flex;
+  padding: 3%;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 100%;
+}
+
+#sidebar {
+  background-color: darkgray;
+  margin: -16px;
+  width: 100px;
+  height: 700px;
+}
+
+main{
+  margin: 8px;
+  display: flex;
+}
+
+footer {
+  background-color: darkgray;
+  height: 100px;
+  margin: -16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}

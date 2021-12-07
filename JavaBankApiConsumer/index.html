@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+  <style>
+    .align {
+      text-align: center;
+    }
+
+    body {
+      background-color: rgba(223, 223, 223, 0.897);
+    }
+
+    .middle {
+      margin: auto;
+      width: 80%;
+    }
+  </style>
+</head>
+
+<body>
+  <H1 class="align container"> JavaBank</H1>
+
+  <h3 class="middle" style="color:rgb(6, 123, 201)">Customer Manager</h3>
+  <div class="container middle">
+    <br>
+      <div class="row">
+        <div class="col-sm">
+          <input readonly="readonly" type="hidden" class="form-control" id="id">
+        </div>
+        <div class="col-sm">
+          <label>First Name</label>
+          <input type="text" class="form-control" id="firstName">
+        </div>
+        <div class="col-sm">
+          <label>Last Name</label>
+          <input type="text" class="form-control" id="lastName">
+        </div>
+        <div class="col-sm">
+          <label>Email</label>
+          <input type="text" class="form-control" id="email">
+        </div>
+        <div class="col-sm">
+          <label>Phone</label>
+          <input type="text" class="form-control" id="phone">
+        </div>
+  </div>
+  <br>
+  <div>
+    <button type="button" id="add" class="btn btn-success">Add</button>
+    <button type="button" id="update" class="btn btn-primary">Update</button>
+    <button type="button" id="reset" class="btn btn-warning">Reset</button>
+  </div>
+  </div>
+  <br>
+  <br>
+  <h3 class="middle" style="color:rgb(6, 123, 201)">List Of Customer</h3>
+  <table class="table table-striped middle" id="customerTable">
+    <tr>
+      <th scope="col">First Name</th>
+      <th scope="col">Last Name</th>
+      <th scope="col">Email</th>
+      <th scope="col">Phone</th>
+      <th scope="col">Edit</th>
+      <th scope="col">Delete</th>
+    </tr>
+  </table>
+</body>
+
+</html>
